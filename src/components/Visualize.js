@@ -12,7 +12,7 @@ export default function Visualize() {
           >
             Kaggle dataset
           </a>{" "}
-          comprised of approximately 45,000 articles labels as real or fake was
+          comprised of approximately 45,000 articles labeled as real or fake was
           used to train the neural network. To better understand the underlying
           nature of the data, a number of Python visualization tools were
           apaplied to the set.
