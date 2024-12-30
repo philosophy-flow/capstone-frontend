@@ -243,3 +243,58 @@ tr.prediction-fail {
 .data-visual-img-container img {
   max-width: 100%;
 }
+
+@media (max-width: 600px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 600px;
+    margin: 0;
+  }
+
+  #root {
+    flex-direction: column;
+  }
+
+  main {
+    padding: 0 0 1rem;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #7851a9;
+    padding-bottom: 1rem;
+  }
+
+  li.nav-link {
+    border: none;
+    padding: 0 1rem;
+    width: 25%;
+  }
+
+  .data-container,
+  main,
+  #root,
+  body {
+    height: auto;
+  }
+
+  h1,
+  .helper-text,
+  .home-divider,
+  form {
+    padding: 0 1rem;
+  }
+}
