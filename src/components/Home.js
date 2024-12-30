@@ -81,11 +81,11 @@ export default function Home({ articleValidity, setArticleValidity }) {
         <Logo />
         <span>Fake News Flush</span>
       </h1>
-      <p>
+      <p className="helper-text">
         Enter a news article title and body content into the form below, and
         we'll tell you if you should flush it.
       </p>
-      <hr />
+      <hr className="home-divider" />
       {awaitingPrediction ? (
         <CircleLoader color="#7851a9" size={150} speed="2" />
       ) : articleValidity ? (
