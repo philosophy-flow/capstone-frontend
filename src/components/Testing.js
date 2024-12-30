@@ -18,7 +18,7 @@ export default function Testing() {
           compare its accuracy against newer data independent of the initial
           training and testing sets. The model tends to do well with articles
           centered around politics and world events, but it isn't as performant
-          with other topics.This suggests the training set was biased towards
+          with other topics. This suggests the training set was biased towards
           the aforementioned subjects.
         </p>
         <p>
