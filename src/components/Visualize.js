@@ -15,7 +15,7 @@ export default function Visualize() {
           comprised of approximately 45,000 articles labeled as real or fake was
           used to train the neural network. To better understand the underlying
           nature of the data, a number of Python visualization tools were
-          apaplied to the set.
+          applied to the set.
         </p>
         <ul className="data-visual-list">
           <li>
@@ -58,7 +58,7 @@ export default function Visualize() {
                 Lexical diversity measures how varied the vocabulary is within
                 the articles — higher value means more unique words are used.
                 Fake articles often have lower lexical diversity, reusing words
-                and phrases to emphathize a point.
+                and phrases to emphasize a point.
               </p>
             </div>
             <div className="data-visual-img-container">
