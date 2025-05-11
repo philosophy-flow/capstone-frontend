@@ -33,7 +33,7 @@ main {
 
 .data-container {
   height: 380px;
-  overflow-y: scroll;
+  overflow-y: auto;
   padding: 0 1rem;
   scrollbar-color: #7851a9 transparent;
 }
